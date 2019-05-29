@@ -4,8 +4,8 @@ import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, 
 
 const BodyCard = () => {
   return (
-      <div className='m-5 p-2 tc '>
-        <MDBRow className= 'd-flex justify-content-between m-5'>
+      <div className='m-5 p-2 tc  '>
+        <MDBRow className= 'd-flex justify-content-around m-5'>
             <MDBCol size="4" className=''>
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
@@ -41,7 +41,7 @@ const BodyCard = () => {
                 </MDBCard>
             </MDBCol>
         </MDBRow>
-        <MDBRow className= 'd-flex justify-content-between m-5'>
+        <MDBRow className= 'd-flex justify-content-around m-5'>
             <MDBCol size="4" className=''>
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
