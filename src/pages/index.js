@@ -6,7 +6,7 @@ import 'mdbreact/dist/css/mdb.css';
 import 'tachyons';
 import Layout from "../components/layout"
 import Image from "../components/image"
-import CardExample from "../components/card"
+import Card from "../components/card"
 import Header from "../components/header";
 import BodyCard from "../components/body";
 import Tech from '../components/tech';
@@ -14,11 +14,8 @@ import Tech from '../components/tech';
 const IndexPage = () => (
   <Layout>
     <Header />
-    <CardExample/>
+    <Card/>
     <Tech />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>      
     <BodyCard />
    </Layout>
 )

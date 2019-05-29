@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBAvatar, MDBRotatingCard, MDBIcon } from "mdbreact";
 import Fola from '../images/fola-min.png'
 
-class CardExample extends Component { 
+class Card extends Component { 
 state = {
   flipped: false
 }
@@ -71,4 +71,4 @@ render() {
   }
 }
 
-export default CardExample;
+export default Card;
