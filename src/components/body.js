@@ -5,9 +5,9 @@ import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, 
 const BodyCard = () => {
     
   return (
-      <div className='m-5 p-2 tc w=100vw'>
+      <div className='m-5 p-2 tc w=100vw justify-content-center'>
         <MDBRow className= 'd-flex justify-content-around m-5'>
-            <MDBCol size="6" className='center'>
+            <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
@@ -24,7 +24,7 @@ const BodyCard = () => {
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-            <MDBCol size="6" className='center'>
+            <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
@@ -43,7 +43,7 @@ const BodyCard = () => {
             </MDBCol>
         </MDBRow>
         <MDBRow className= 'd-flex justify-content-around m-5'>
-            <MDBCol size="6" className='center'>
+            <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
@@ -60,7 +60,7 @@ const BodyCard = () => {
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-            <MDBCol size="6" className='center'>
+            <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
