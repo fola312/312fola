@@ -3,8 +3,9 @@ import React from 'react';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBRow, MDBIcon } from 'mdbreact';
 
 const BodyCard = () => {
+    
   return (
-      <div className='m-5 p-2 tc  '>
+      <div className='m-5 p-2 tc w=100vw'>
         <MDBRow className= 'd-flex justify-content-around m-5'>
             <MDBCol size="4" className='center'>
                 <MDBCard style={{ width: "22em" }}>

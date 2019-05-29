@@ -12,7 +12,7 @@ handleFlipping = () => {
 }
 
 render() {
-  const colStyle = { maxWidth: "22rem" };
+  const colStyle = { maxWidth: "22rem", maxHeight: "26rem" };
 
   return (
     <MDBRow className='mt-5'>
