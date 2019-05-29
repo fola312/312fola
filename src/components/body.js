@@ -5,9 +5,9 @@ import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, 
 const BodyCard = () => {
   return (
       <div className='mt-5 p-5 m-5 tc '>
-        <MDBRow className= 'd-flex justify-content-center m-5'>
-            <MDBCol size="3" className=''>
-                <MDBCard style={{ width: "25em" }}>
+        <MDBRow className= 'd-flex justify-content-between m-5'>
+            <MDBCol size="4" className=''>
+                <MDBCard style={{ width: "40em" }}>
                     <MDBCardImage className="" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
                     <MDBCardTitle>Project 1</MDBCardTitle>
@@ -23,8 +23,8 @@ const BodyCard = () => {
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-            <MDBCol size="3" className=''>
-                <MDBCard style={{ width: "25em" }}>
+            <MDBCol size="4" className=''>
+                <MDBCard style={{ width: "40em" }}>
                     <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
                     <MDBCardTitle>Project 2</MDBCardTitle>
@@ -41,9 +41,9 @@ const BodyCard = () => {
                 </MDBCard>
             </MDBCol>
         </MDBRow>
-        <MDBRow className= 'd-flex justify-content-center m-5'>
-            <MDBCol size="3" className=''>
-                <MDBCard style={{ width: "25em" }}>
+        <MDBRow className= 'd-flex justify-content-between m-5'>
+            <MDBCol size="4" className=''>
+                <MDBCard style={{ width: "40em" }}>
                     <MDBCardImage className="" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
                     <MDBCardTitle>Project 3</MDBCardTitle>
@@ -59,8 +59,8 @@ const BodyCard = () => {
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-            <MDBCol size="3" className=''>
-                <MDBCard style={{ width: "25em" }}>
+            <MDBCol size="4" className=''>
+                <MDBCard style={{ width: "40em" }}>
                     <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
                     <MDBCardTitle>Project 4</MDBCardTitle>
