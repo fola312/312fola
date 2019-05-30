@@ -1,10 +1,10 @@
 import React from 'react';
-import {MDBIcon, MDBTooltip, MDBBtn } from 'mdbreact';
+import {MDBIcon, MDBTooltip, MDBBtn, MDBContainer } from 'mdbreact';
 
 class Tech extends React.Component {
     render() {
         return (
-            <div className='mt-5 tc'>
+            <MDBContainer className='mt-5 tc'>
                 <h1 >Just a few of the libraries, services, and technologies I dabble in...</h1>
                 <MDBTooltip placement="top">
                     <MDBBtn color='primary'><MDBIcon fab icon="html5" size='5x' className='m-3' /></MDBBtn>
@@ -42,9 +42,7 @@ class Tech extends React.Component {
                     <MDBBtn color='primary'><MDBIcon fab icon="sass" size='5x' className='m-3' /></MDBBtn>
                     <div>SASS</div>
                 </MDBTooltip>
-               
-                
-            </div>
+            </MDBContainer>
 
         )
     }
