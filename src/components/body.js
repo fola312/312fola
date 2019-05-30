@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBRow, MDBIcon } from 'mdbreact';
+import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBRow, MDBIcon, MDBContainer } from 'mdbreact';
 import Recog from '../images/Recog.png';
 import WFD from '../images/WFD.png';
 import Robo from '../images/Robo.png';
@@ -9,7 +9,7 @@ import jump from '../images/jump.png';
 const BodyCard = () => {
     
   return (
-      <div className='m-5 p-2 tc w=100vw justify-content-center'>
+    <MDBContainer className='m-5 p-2 tc w=100vw justify-content-center'>
         <MDBRow className= 'd-flex justify-content-around m-5'>
             <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
@@ -82,10 +82,7 @@ const BodyCard = () => {
                 </MDBCard>
             </MDBCol>
         </MDBRow>
-       
-            
-
-      </div>
+    </MDBContainer>
     
     
   )
