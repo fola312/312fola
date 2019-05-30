@@ -1,11 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import 'tachyons';
 import Layout from "../components/layout"
-import Image from "../components/image"
 import Card from "../components/card"
 import Header from "../components/header";
 import BodyCard from "../components/body";

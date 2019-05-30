@@ -53,11 +53,12 @@ render() {
                     <MDBIcon icon="twitter" brand />
                   </a>
                 </li>
-                <li className="list-inline-item">
+                {/* maybe?? */}
+                {/* <li className="list-inline-item">
                   <a href="#!" className="p-2 fa-lg li-ic">
                     <MDBIcon icon="linkedin" brand />
                   </a>
-                </li>
+                </li> */}
               </ul>
               <a href="#!" className="rotate-btn" data-card="card-1" onClick={this.handleFlipping}>
                 <MDBIcon icon="undo" /> Click here to rotate back

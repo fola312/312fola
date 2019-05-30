@@ -11,16 +11,16 @@ const BodyCard = () => {
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
-                    <MDBCardTitle>Project 1</MDBCardTitle>
+                    <MDBCardTitle>Face Recognition App</MDBCardTitle>
                     <MDBCardText>
                         Some quick example text to build on the card title and make
                         up the bulk of the card&apos;s content.
                     </MDBCardText>
-                    <MDBBtn color='primary' href="#">See It!  </MDBBtn>
-                    <MDBBtn color="red">
+                    <MDBBtn color='green' href="https://face-recog-app.netlify.com/" target="_blank">See It!  </MDBBtn>
+                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank">
                     <MDBIcon fab icon="youtube" size='2x' className="mr-1" /> Watch!
                     </MDBBtn>
-                    <MDBIcon fab icon="github" size='2x' className="ml-1 m-2"/>
+                    <a href="https://github.com/fola312/face-recog-api" target="_blank"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -28,16 +28,16 @@ const BodyCard = () => {
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
-                    <MDBCardTitle>Project 2</MDBCardTitle>
+                    <MDBCardTitle>What's For Dinner App</MDBCardTitle>
                     <MDBCardText>
                         Some quick example text to build on the card title and make
                         up the bulk of the card&apos;s content.
                     </MDBCardText>
-                    <MDBBtn color='primary' href="#">See It!  </MDBBtn>
-                    <MDBBtn color="red">
+                    <MDBBtn color='green' href="https://whats-for-dinner-fola.netlify.com/" target="_blank">See It!  </MDBBtn>
+                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank">
                     <MDBIcon fab icon="youtube" size='2x' className="mr-1" /> Watch!
                     </MDBBtn>
-                    <MDBIcon fab icon="github" size='2x' className="ml-1 m-2"/>
+                    <a href="https://github.com/fola312/dinnerTimeApp" target="_blank"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -47,16 +47,16 @@ const BodyCard = () => {
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
-                    <MDBCardTitle>Project 3</MDBCardTitle>
+                    <MDBCardTitle>RobotFriends App</MDBCardTitle>
                     <MDBCardText>
                         Some quick example text to build on the card title and make
                         up the bulk of the card&apos;s content.
                     </MDBCardText>
-                    <MDBBtn color='primary' href="#">See It!  </MDBBtn>
-                    <MDBBtn color="red">
+                    <MDBBtn color='green' href="https://peaceful-robots-4d2d45.netlify.com/" target="_blank">See It!  </MDBBtn>
+                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank">
                     <MDBIcon fab icon="youtube" size='2x' className="mr-1" /> Watch!
                     </MDBBtn>
-                    <MDBIcon fab icon="github" size='2x' className="ml-1 m-2"/>
+                    <a href="https://github.com/fola312/robotfriends" target="_blank"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -64,16 +64,16 @@ const BodyCard = () => {
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
                     <MDBCardBody>
-                    <MDBCardTitle>Project 4</MDBCardTitle>
+                    <MDBCardTitle>Jumpshot Buddy App</MDBCardTitle>
                     <MDBCardText>
                         Some quick example text to build on the card title and make
                         up the bulk of the card&apos;s content.
                     </MDBCardText>
-                    <MDBBtn color='primary' href="#">See It!  </MDBBtn>
-                    <MDBBtn color="red">
+                    <MDBBtn color='green' href="#">See It!  </MDBBtn>
+                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank">
                     <MDBIcon fab icon="youtube" size='2x' className="mr-1" /> Watch!
                     </MDBBtn>
-                    <MDBIcon fab icon="github" size='2x' className="ml-1 m-2"/>
+                    <a href="https://github.com/fola312/face-recog-api" target="_blank"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>

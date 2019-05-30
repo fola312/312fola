@@ -5,7 +5,7 @@ class Tech extends React.Component {
     render() {
         return (
             <div className='mt-5 tc'>
-                <h1 >A few of the technologies I dabble in</h1>
+                <h1 >Just a few of the libraries, services, and technology I dabble in...</h1>
                 <MDBTooltip placement="top">
                     <MDBBtn color='primary'><MDBIcon fab icon="html5" size='5x' className='m-3' /></MDBBtn>
                     <div>Html5</div>
