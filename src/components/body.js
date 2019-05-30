@@ -54,7 +54,7 @@ const BodyCard = () => {
                     <MDBCardTitle>RobotFriends App</MDBCardTitle>
                     <MDBCardText>
                         Some quick example text to build on the card title and make
-                        up the bulk of the card&apos;s content.
+                        up the bulk of the card&apos;s content. Test
                     </MDBCardText>
                     <MDBBtn color='green' href="https://peaceful-robots-4d2d45.netlify.com/" target="_blank" rel="noopener noreferrer">See It!  </MDBBtn>
                     <MDBBtn color="red" href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
