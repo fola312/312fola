@@ -53,6 +53,16 @@ render() {
                     <MDBIcon icon="twitter" brand />
                   </a>
                 </li>
+                <li className="list-inline-item">
+                  <a href="mailto:fola.orokunle@gmail.com" className="p-2 fa-lg tw-ic">
+                    <MDBIcon icon="envelope" className="amber-text pr-3"/>
+                  </a>
+                </li>
+                <li className="list-inline-item">
+                  <a href="/page-2" className="p-2 fa-lg tw-ic">
+                    <MDBIcon icon="mobile-alt" className="cyan-text pr-3" />
+                  </a>
+                </li>
                 {/* maybe?? */}
                 {/* <li className="list-inline-item">
                   <a href="#!" className="p-2 fa-lg li-ic">

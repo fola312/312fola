@@ -15,7 +15,7 @@ const IndexPage = () => (
     <Card/>
     <Tech />
     <BodyCard />
-   </Layout>
+  </Layout>
 )
 
 export default IndexPage

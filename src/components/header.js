@@ -4,7 +4,7 @@ import React from 'react'
 class Header extends React.Component {
     render() {
         return (
-            <div style={{backgroundColor: '#4285F4'}}className='h-40vh  tc'>
+            <div style={{backgroundColor: '#4285F4'}}className='h-40vh  tc text-white'>
                 <h1 >Hi, I'm Fola.</h1>
                 <p className='tc'>Ameteur Chef</p>
                 <p className='tc strike'>Professional Father</p>

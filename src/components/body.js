@@ -1,6 +1,10 @@
 
 import React from 'react';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBRow, MDBIcon } from 'mdbreact';
+import recog from '../images/recog.png';
+import wfd from '../images/WFD.png';
+import robo from '../images/robo.png';
+import jsb from '../images/jsb.png';
 
 const BodyCard = () => {
     
@@ -9,7 +13,7 @@ const BodyCard = () => {
         <MDBRow className= 'd-flex justify-content-around m-5'>
             <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
-                    <MDBCardImage className="" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+                    <MDBCardImage className="" src={recog} waves />
                     <MDBCardBody>
                     <MDBCardTitle>Face Recognition App</MDBCardTitle>
                     <MDBCardText>
@@ -26,7 +30,7 @@ const BodyCard = () => {
             </MDBCol>
             <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
-                    <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+                    <MDBCardImage className="img-fluid" src={wfd} waves />
                     <MDBCardBody>
                     <MDBCardTitle>What's For Dinner App</MDBCardTitle>
                     <MDBCardText>
@@ -45,7 +49,7 @@ const BodyCard = () => {
         <MDBRow className= 'd-flex justify-content-around m-5'>
             <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
-                    <MDBCardImage className="" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+                    <MDBCardImage className="" src={robo} waves />
                     <MDBCardBody>
                     <MDBCardTitle>RobotFriends App</MDBCardTitle>
                     <MDBCardText>
@@ -62,7 +66,7 @@ const BodyCard = () => {
             </MDBCol>
             <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
-                    <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+                    <MDBCardImage className="img-fluid" src={jsb} waves />
                     <MDBCardBody>
                     <MDBCardTitle>Jumpshot Buddy App</MDBCardTitle>
                     <MDBCardText>
