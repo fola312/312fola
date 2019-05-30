@@ -16,11 +16,11 @@ const BodyCard = () => {
                         Some quick example text to build on the card title and make
                         up the bulk of the card&apos;s content.
                     </MDBCardText>
-                    <MDBBtn color='green' href="https://face-recog-app.netlify.com/" target="_blank">See It!  </MDBBtn>
-                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank">
+                    <MDBBtn color='green' href="https://face-recog-app.netlify.com/" target="_blank" rel="noopener noreferrer">See It!  </MDBBtn>
+                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
                     <MDBIcon fab icon="youtube" size='2x' className="mr-1" /> Watch!
                     </MDBBtn>
-                    <a href="https://github.com/fola312/face-recog-api" target="_blank"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
+                    <a href="https://github.com/fola312/face-recog-api" target="_blank" rel="noopener noreferrer"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -33,11 +33,11 @@ const BodyCard = () => {
                         Some quick example text to build on the card title and make
                         up the bulk of the card&apos;s content.
                     </MDBCardText>
-                    <MDBBtn color='green' href="https://whats-for-dinner-fola.netlify.com/" target="_blank">See It!  </MDBBtn>
-                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank">
+                    <MDBBtn color='green' href="https://whats-for-dinner-fola.netlify.com/" target="_blank" rel="noopener noreferrer">See It!  </MDBBtn>
+                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
                     <MDBIcon fab icon="youtube" size='2x' className="mr-1" /> Watch!
                     </MDBBtn>
-                    <a href="https://github.com/fola312/dinnerTimeApp" target="_blank"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
+                    <a href="https://github.com/fola312/dinnerTimeApp" target="_blank" rel="noopener noreferrer"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -52,11 +52,11 @@ const BodyCard = () => {
                         Some quick example text to build on the card title and make
                         up the bulk of the card&apos;s content.
                     </MDBCardText>
-                    <MDBBtn color='green' href="https://peaceful-robots-4d2d45.netlify.com/" target="_blank">See It!  </MDBBtn>
-                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank">
+                    <MDBBtn color='green' href="https://peaceful-robots-4d2d45.netlify.com/" target="_blank" rel="noopener noreferrer">See It!  </MDBBtn>
+                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
                     <MDBIcon fab icon="youtube" size='2x' className="mr-1" /> Watch!
                     </MDBBtn>
-                    <a href="https://github.com/fola312/robotfriends" target="_blank"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
+                    <a href="https://github.com/fola312/robotfriends" target="_blank" rel="noopener noreferrer"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -70,10 +70,10 @@ const BodyCard = () => {
                         up the bulk of the card&apos;s content.
                     </MDBCardText>
                     <MDBBtn color='green' href="#">See It!  </MDBBtn>
-                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank">
+                    <MDBBtn color="red" href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
                     <MDBIcon fab icon="youtube" size='2x' className="mr-1" /> Watch!
                     </MDBBtn>
-                    <a href="https://github.com/fola312/face-recog-api" target="_blank"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
+                    <a href="https://github.com/fola312/face-recog-api" target="_blank" rel="noopener noreferrer"><MDBIcon  fab icon="github" size='2x' className="ml-1 m-2"/></a>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
