@@ -9,8 +9,8 @@ import jump from '../images/jump.png';
 const BodyCard = () => {
     
   return (
-    <MDBContainer className='m-5 p-2 tc w=100vw justify-content-center'>
-        <MDBRow className= 'd-flex justify-content-around m-5'>
+    <MDBContainer >
+        <MDBRow className= 'm-5 tc'>
             <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="" src={Recog} waves />
@@ -46,7 +46,7 @@ const BodyCard = () => {
                 </MDBCard>
             </MDBCol>
         </MDBRow>
-        <MDBRow className= 'd-flex justify-content-around m-5'>
+        <MDBRow className= 'd-flex justify-content-around m-5 tc'>
             <MDBCol size="6" className='d-flex justify-content-center'>
                 <MDBCard style={{ width: "22em" }}>
                     <MDBCardImage className="" src={Robo} waves />
