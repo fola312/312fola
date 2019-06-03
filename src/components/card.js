@@ -36,9 +36,6 @@ render() {
           <MDBCard className="face back mt-5">
 
             <MDBCardBody>            
-              <MDBAvatar className="mx-auto white" circle>
-                <img src={Fola} alt="" className="rounded-circle" />
-              </MDBAvatar>
               <h4 className="font-weight-bold">About me</h4>
               <hr />
               <p>

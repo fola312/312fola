@@ -9,10 +9,10 @@ import jump from '../images/jump.png';
 const BodyCard = () => {
     
   return (
-    <MDBContainer >
-        <MDBRow className= 'm-5 tc'>
-            <MDBCol size="6" className='d-flex justify-content-center'>
-                <MDBCard style={{ width: "22em" }}>
+    <MDBContainer className="tc center">
+        <MDBRow className= 'mt-5'>
+            <MDBCol size="8" sm="6" className=''>
+                <MDBCard style={{ width: "22em", height: "33em" }}>
                     <MDBCardImage className="" src={Recog} waves />
                     <MDBCardBody>
                     <MDBCardTitle>Face Recognition App</MDBCardTitle>
@@ -27,8 +27,8 @@ const BodyCard = () => {
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-            <MDBCol size="6" className='d-flex justify-content-center'>
-                <MDBCard style={{ width: "22em" }}>
+            <MDBCol size="8" sm="6" className=''>
+                <MDBCard style={{ width: "22em", height: "33em" }}>
                     <MDBCardImage className="img-fluid" src={WFD} waves />
                     <MDBCardBody>
                     <MDBCardTitle>What's For Dinner App</MDBCardTitle>
@@ -45,9 +45,9 @@ const BodyCard = () => {
                 </MDBCard>
             </MDBCol>
         </MDBRow>
-        <MDBRow className= 'd-flex justify-content-around m-5 tc'>
-            <MDBCol size="6" className='d-flex justify-content-center'>
-                <MDBCard style={{ width: "22em" }}>
+        <MDBRow className= 'mt-5'>
+            <MDBCol size="8" sm="6" className=''>
+                <MDBCard style={{ width: "22em", height: "33em"  }}>
                     <MDBCardImage className="" src={Robo} waves />
                     <MDBCardBody>
                     <MDBCardTitle>RobotFriends App</MDBCardTitle>
@@ -63,8 +63,8 @@ const BodyCard = () => {
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-            <MDBCol size="6" className='d-flex justify-content-center'>
-                <MDBCard style={{ width: "22em" }}>
+            <MDBCol size="8" sm="6"className=''>
+                <MDBCard style={{ width: "22em", height: "33em"  }}>
                     <MDBCardImage className="img-fluid" src={jump} waves />
                     <MDBCardBody>
                     <MDBCardTitle>Jumpshot Buddy App</MDBCardTitle>
