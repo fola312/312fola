@@ -9,9 +9,9 @@ import jump from '../images/jump.png';
 const BodyCard = () => {
     
   return (
-    <MDBContainer className="tc center">
+    <MDBContainer className="tc">
         <MDBRow className= 'mt-5'>
-            <MDBCol size="8" sm="6" className=''>
+            <MDBCol size="6" sm="12" md="6" className='d-flex flex-center'>
                 <MDBCard style={{ width: "22em", height: "33em" }}>
                     <MDBCardImage className="" src={Recog} waves />
                     <MDBCardBody>
@@ -27,7 +27,7 @@ const BodyCard = () => {
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-            <MDBCol size="8" sm="6" className=''>
+            <MDBCol size="6" sm="12" md="6"className='d-flex flex-center'>
                 <MDBCard style={{ width: "22em", height: "33em" }}>
                     <MDBCardImage className="img-fluid" src={WFD} waves />
                     <MDBCardBody>
@@ -46,7 +46,7 @@ const BodyCard = () => {
             </MDBCol>
         </MDBRow>
         <MDBRow className= 'mt-5'>
-            <MDBCol size="8" sm="6" className=''>
+            <MDBCol size="6" sm="12" md="6" className='d-flex flex-center'>
                 <MDBCard style={{ width: "22em", height: "33em"  }}>
                     <MDBCardImage className="" src={Robo} waves />
                     <MDBCardBody>
@@ -63,7 +63,7 @@ const BodyCard = () => {
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-            <MDBCol size="8" sm="6"className=''>
+            <MDBCol size="6" sm="12" md="6" className='d-flex flex-center'>
                 <MDBCard style={{ width: "22em", height: "33em"  }}>
                     <MDBCardImage className="img-fluid" src={jump} waves />
                     <MDBCardBody>
