@@ -10,9 +10,9 @@ const BodyCard = () => {
     
   return (
     <MDBContainer className="tc">
-        <MDBRow className= 'mt-5'>
-            <MDBCol size="6" sm="12" md="6" className='d-flex flex-center'>
-                <MDBCard style={{ width: "22em", height: "33em" }}>
+        <MDBRow className= 'mt-5' style={{ minHeight: '26rem' }}>
+            <MDBCol size="12" xs="12" md="6" className='d-flex flex-center'>
+                <MDBCard style={{ widthMin: "400px", width: "22em", height: "33em" }}>
                     <MDBCardImage className="" src={Recog} waves />
                     <MDBCardBody>
                     <MDBCardTitle>Face Recognition App</MDBCardTitle>
@@ -27,7 +27,7 @@ const BodyCard = () => {
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-            <MDBCol size="6" sm="12" md="6"className='d-flex flex-center'>
+            <MDBCol size="12" xs="12" md="6"className='d-flex flex-center'>
                 <MDBCard style={{ width: "22em", height: "33em" }}>
                     <MDBCardImage className="img-fluid" src={WFD} waves />
                     <MDBCardBody>
@@ -46,7 +46,7 @@ const BodyCard = () => {
             </MDBCol>
         </MDBRow>
         <MDBRow className= 'mt-5'>
-            <MDBCol size="6" sm="12" md="6" className='d-flex flex-center'>
+            <MDBCol size="12" xs="12" md="6" className='d-flex flex-center'>
                 <MDBCard style={{ width: "22em", height: "33em"  }}>
                     <MDBCardImage className="" src={Robo} waves />
                     <MDBCardBody>
@@ -63,7 +63,7 @@ const BodyCard = () => {
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
-            <MDBCol size="6" sm="12" md="6" className='d-flex flex-center'>
+            <MDBCol size="12" xs="12" md="6" className='d-flex flex-center'>
                 <MDBCard style={{ width: "22em", height: "33em"  }}>
                     <MDBCardImage className="img-fluid" src={jump} waves />
                     <MDBCardBody>

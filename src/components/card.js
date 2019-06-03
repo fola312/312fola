@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBAvatar, MDBRotatingCard, MDBIcon } from "mdbreact";
 import Fola from '../images/fola-min.png'
+import Skyline from '../images/skyline.jpg'
 
 class Card extends Component { 
 state = {
@@ -20,7 +21,7 @@ render() {
         <MDBRotatingCard flipped={this.state.flipped} className=" text-center h-100 w-100" style={colStyle}>
           <MDBCard className="face front ">
             <MDBCardUp>
-              <img className="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo7.jpg" alt="" />
+              <img className="card-img-top" src={Skyline} alt="" />
             </MDBCardUp>
             <MDBAvatar className="mx-auto white" circle>
               <img src={Fola} alt="" className="rounded-circle" />
