@@ -31,15 +31,15 @@ class Tech extends React.Component {
                     <div>Database(postgres)</div>
                 </MDBTooltip>
                 <MDBTooltip placement="top">
-                    <MDBBtn color='primary'><MDBIcon fab icon="node" size='5x' className='m-3' /></MDBBtn>
+                    <MDBBtn color='primary'><MDBIcon fab icon="node" size='5x' className='mt-3 mb-3 mr-2 ml-2'  /></MDBBtn>
                     <div>NodeJS</div>
                 </MDBTooltip>
                 <MDBTooltip placement="top">
-                    <MDBBtn color='primary'><MDBIcon fab icon="npm" size='5x' className='m-3' /></MDBBtn>
+                    <MDBBtn color='primary'><MDBIcon fab icon="npm" size='5x' className='mt-3 mb-3 mr-2 ml-2'  /></MDBBtn>
                     <div>NPM</div>
                 </MDBTooltip>
                 <MDBTooltip placement="top">
-                    <MDBBtn color='primary'><MDBIcon fab icon="sass" size='5x' className='m-3' /></MDBBtn>
+                    <MDBBtn color='primary'><MDBIcon fab icon="sass" size='5x' className='mt-3 mb-3 mr-2 ml-2' /></MDBBtn>
                     <div>SASS</div>
                 </MDBTooltip>
             </MDBContainer>
