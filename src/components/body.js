@@ -34,7 +34,7 @@ const BodyCard = () => {
                     <MDBCardTitle>What's For Dinner App</MDBCardTitle>
                     <MDBCardText>
                         For nights when I don't know what to cook, this App will select a random 
-                        favorite recipe and quickly show me what ingredient I need. 
+                        favorite recipe and quickly show me what ingredients I need. 
                     </MDBCardText>
                     <MDBBtn color='green' href="https://whats-for-dinner-fola.netlify.com/" target="_blank" rel="noopener noreferrer">See It!  </MDBBtn>
                     <MDBBtn color="red" href="https://youtu.be/3TERHuI54LM" target="_blank" rel="noopener noreferrer">
@@ -53,7 +53,7 @@ const BodyCard = () => {
                     <MDBCardTitle>RobotFriends App</MDBCardTitle>
                     <MDBCardText>
                         Simple App designed to search through a custom JSON API. 
-                        It use the Robohash API for random robot generating.
+                        It uses the Robohash API for random robot generating.
                     </MDBCardText>
                     <MDBBtn color='green' href="https://peaceful-robots-4d2d45.netlify.com/" target="_blank" rel="noopener noreferrer">See It!  </MDBBtn>
                     <MDBBtn color="red" href="https://youtu.be/hQQXGApcKKg" target="_blank" rel="noopener noreferrer">
