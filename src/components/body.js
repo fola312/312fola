@@ -45,7 +45,7 @@ const BodyCard = () => {
                 </MDBCard>
             </MDBCol>
         </MDBRow>
-        <MDBRow className= 'mt-5'>
+        <MDBRow className= 'mt-5 mb-5'>
             <MDBCol size="12" xs="12" md="6" className='d-flex flex-center'>
                 <MDBCard style={{ width: "22em", height: "33em"  }}>
                     <MDBCardImage className="" src={Robo} waves />
