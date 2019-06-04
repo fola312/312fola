@@ -42,13 +42,13 @@ render() {
               <p>
               After a decade plus of  working in Operations and 
               Recruiting Management i’ve followed my passion for 
-              technology and building into the world of development. 
+              technology and helping people into the world of development. 
               I’d love to hear from you. 
               </p>
               <hr />
               <ul className="list-inline py-2">
                 <li className="list-inline-item">
-                  <a href="#!" className="p-2 fa-lg tw-ic">
+                  <a href="https://twitter.com/fola312" target="_blank" rel="noopener noreferrer" className="p-2 fa-lg tw-ic">
                     <MDBIcon icon="twitter" brand />
                   </a>
                 </li>
@@ -62,12 +62,11 @@ render() {
                     <MDBIcon icon="mobile-alt" className="cyan-text pr-3" />
                   </a>
                 </li>
-                {/* maybe?? */}
-                {/* <li className="list-inline-item">
-                  <a href="#!" className="p-2 fa-lg li-ic">
+                <li className="list-inline-item">
+                  <a href="https://www.linkedin.com/in/fola312" target="_blank" rel="noopener noreferrer" className="p-2 fa-lg li-ic">
                     <MDBIcon icon="linkedin" brand />
                   </a>
-                </li> */}
+                </li>
               </ul>
               <a href="#!" className="rotate-btn" data-card="card-1" onClick={this.handleFlipping}>
                 <MDBIcon icon="undo" /> Click here to rotate back

@@ -9,7 +9,7 @@ class Tech extends React.Component {
                 <div className='techy'>
                 <h1 >Just a few of the libraries, services, and technologies I dabble in...</h1>
                 <MDBTooltip placement="top">
-                    <MDBBtn gradient='blue'><MDBIcon fab icon="html5" size='5x' className='m-3' /></MDBBtn>
+                    <MDBBtn gradient='blue'><MDBIcon fab icon="html5" size='5x' className='m-3 ml-4 mr-4' /></MDBBtn>
                     <div>Html5</div>
                 </MDBTooltip>
                 <MDBTooltip placement="top">
