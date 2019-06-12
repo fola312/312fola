@@ -71,7 +71,7 @@ const BodyCard = () => {
                     <MDBCardText>
                         One of my most ambitious and exciting projects. This App is designed to (ultimately) help anyone improve their Jumpshot.
                     </MDBCardText>
-                    <MDBBtn color='green' href="www.jumpshotbuddy.com" target="_blank" rel="noopener noreferrer">See It!  </MDBBtn>
+                    <MDBBtn color='green' href="https://www.jumpshotbuddy.com/" target="_blank" rel="noopener noreferrer">See It!  </MDBBtn>
                     <MDBBtn color="red" href="https://youtu.be/D6O6J7V4T-U" target="_blank" rel="noopener noreferrer">
                     <MDBIcon fab icon="youtube" size='2x' className="mr-1" /> Watch!
                     </MDBBtn>
