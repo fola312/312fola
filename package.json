@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Fola Orokunle <fola.orokunle@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.7.3",
+    "gatsby": "^5.14.4",
     "gatsby-image": "^2.1.1",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-offline": "^2.1.1",
